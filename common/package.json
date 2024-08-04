@@ -1,0 +1,20 @@
+{
+  "name": "@mebiswajitmalakar/common",
+  "version": "1.0.0",
+  "description": "Common module for echo",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "common",
+    "echo"
+  ],
+  "author": "Biswajit Malakar <mebiswajitmalakar@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4",
+    "zod": "^3.23.8"
+  }
+}
