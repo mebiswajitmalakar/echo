@@ -12,10 +12,10 @@
 
 ## Backend
 - **Express** as backend
-- **AWS EC2** as backend and deployment
+- **AWS EC2** as backend deployment
 - **Prisma** as ORM
 - **Zod** for type validation and type inference for frontend
-- **Jwt** for authentication
+- **Jsonwebtoken** for authentication
 
 ## OpenAPI
 
