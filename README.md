@@ -2,6 +2,24 @@
 
 > Echo is a dynamic platform designed for bloggers to write, share, and collaborate on their blogs. Whether you're writing individually or as part of a group, Echo provides a seamless experience to craft and distribute your content. Engage with your audience, collaborate with fellow writers, and amplify your voice with Echo. Join the community of bloggers who are making an impact, one post at a time.
 
+# Services
+
+## Notify
+
+> Notification service of Echo
+
+## Backend
+
+> Primary backend service of Echo
+
+## Common
+
+> Shareable NPM package of Echo
+
+## Frontend
+
+> Frontend service of Echo
+
 # Tech stack
 
 ## Language
