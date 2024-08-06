@@ -69,7 +69,7 @@ export const signupRoute = async (req: Request, res: Response) => {
     }).status(statusCodes.internal_error)
   }
 
-  const expireOn: number = Math.floor(Date.now() + 1000 * 60 * 60 * 24 * 30);
+  const expireOn: number = Math.floor(Date.now() + 1000 * 60 * 15); // 15 minutes
 
   const token = sign({
     sub: payload.email,
@@ -82,21 +82,14 @@ export const signupRoute = async (req: Request, res: Response) => {
   /* TODO
   Send an email to user using notify service of echo
   required payload ?
-    - email
-    - token
-    - expireOn
+  * email
+  * token
+  * expireOn
+  * notify about the verification of email
   */
-
-  res.cookie("user_token", encodeURIComponent(`Bearer ${token}`), {
-    httpOnly: true,
-    expires: new Date(expireOn),
-    secure: process.env.NODE_ENV === "production",
-    path: "/",
-    sameSite: "lax",
-  });
 
   return res.json({
     success: true,
-    message: "You're signed up"
+    message: "Check your email"
   }).status(statusCodes.ok);
 }
