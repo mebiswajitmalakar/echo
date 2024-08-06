@@ -10,5 +10,5 @@ app.use("/api", router);
 
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log(`listening on ${process.env.HOST || "localhost"}:${process.env.PORT || "3000"}`);
+  console.log(`@echo/backend is listening on ${process.env.HOST}:${process.env.PORT}`);
 })
