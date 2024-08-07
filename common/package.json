@@ -1,6 +1,6 @@
 {
   "name": "@mebiswajitmalakar/common",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Common module for echo",
   "main": "dist/index.js",
   "scripts": {

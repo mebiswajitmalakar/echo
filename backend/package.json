@@ -23,7 +23,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@mebiswajitmalakar/common": "^1.0.4",
+    "@mebiswajitmalakar/common": "^1.0.5",
     "@types/bcrypt": "^5.0.2",
     "@types/cookie-parser": "^1.4.7",
     "@types/express": "^4.17.21",
