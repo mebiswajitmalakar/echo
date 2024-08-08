@@ -4,5 +4,6 @@ declare namespace NodeJS {
     HOST: string;
     RESEND_API_KEY: string;
     NODE_ENV: string;
+    EMAIL_ADDRESS: string;
   }
 }
